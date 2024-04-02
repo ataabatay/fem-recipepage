@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", "sans-serif";
+}
+* h1,
+* h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+* p, * li {
+  font-size: 16px;
+}
+* hr {
+  border: solid hsl(30, 18%, 87%) 0.1rem;
+  opacity: 25%;
+  margin-top: 2rem;
+}
+* h2 {
+  color: hsl(14, 45%, 36%);
+  margin: 2rem 0;
+  margin-bottom: 1.2rem;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 1440px) {
+  body {
+    padding: 5rem;
+  }
+}
+
+main {
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+@media (min-width: 1440px) {
+  main {
+    width: 600px;
+  }
+}
+main .img {
+  background-image: url("../assets/images/image-omelette.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10rem;
+}
+@media (min-width: 1440px) {
+  main .img {
+    border-radius: 12px;
+    height: 300px;
+    margin: 2rem;
+  }
+}
+main .wrapper {
+  padding: 2rem;
+  color: hsl(24, 5%, 18%);
+}
+main .wrapper .intro h1 {
+  font-size: xx-large;
+  font-weight: 400;
+  line-height: 1.85rem;
+}
+main .wrapper .intro p {
+  margin: 2rem 0;
+  line-height: 1.4rem;
+}
+main .wrapper .prep-instructions {
+  padding: 1.5rem;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 12px;
+}
+main .wrapper .prep-instructions h3 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 1rem;
+}
+main .wrapper .prep-instructions ul {
+  padding: 0 1.5rem;
+}
+main .wrapper .prep-instructions ul li {
+  color: hsl(24, 5%, 18%);
+  margin-top: 0.6rem;
+  padding-left: 1rem;
+  align-content: center;
+}
+main .wrapper .prep-instructions ul li::marker {
+  font-size: 12px;
+  color: hsl(332, 51%, 32%);
+}
+main .wrapper .ingredients ul {
+  padding: 0 1.5rem;
+}
+main .wrapper .ingredients ul li {
+  color: hsl(24, 5%, 18%);
+  margin-top: 0.6rem;
+  padding-left: 1rem;
+  align-content: center;
+}
+main .wrapper .ingredients ul li::marker {
+  font-size: 12px;
+  color: hsl(332, 51%, 32%);
+}
+main .wrapper .instructions ol {
+  padding-left: 1.5rem;
+}
+main .wrapper .instructions ol li {
+  color: hsl(24, 5%, 18%);
+  margin-top: 0.6rem;
+  padding-left: 1rem;
+  align-content: center;
+  line-height: 1.4rem;
+}
+main .wrapper .instructions ol li::marker {
+  font-size: 12px;
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit";
+  font-weight: 700;
+}
+main .wrapper .nutritions hr {
+  margin: 0;
+}
+main .wrapper .nutritions .text {
+  margin-bottom: 2rem;
+}
+main .wrapper .nutritions .single-nutrition {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+main .wrapper .nutritions .single-nutrition .name {
+  width: 50px;
+  margin-right: 5rem;
+}
+main .wrapper .nutritions .single-nutrition .value {
+  margin-right: auto;
+  font-weight: 800;
+  color: hsl(14, 45%, 36%);
+}/*# sourceMappingURL=styles.css.map */
