@@ -41,7 +41,7 @@ main {
 }
 @media (min-width: 376px) {
   main {
-    width: 600px;
+    width: 750px;
   }
 }
 main .img {
@@ -135,10 +135,11 @@ main .wrapper .nutritions .single-nutrition {
   padding-left: 2rem;
 }
 main .wrapper .nutritions .single-nutrition .name {
-  width: 50px;
+  width: 50%;
   margin-right: 5rem;
 }
 main .wrapper .nutritions .single-nutrition .value {
+  width: 50%;
   margin-right: auto;
   font-weight: 800;
   color: hsl(14, 45%, 36%);
